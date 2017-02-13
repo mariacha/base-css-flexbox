@@ -1,0 +1,48 @@
+.grid {
+    display: flex;
+    border: 1px solid darkred;
+    background: palevioletred;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    border: 1px solid blue;
+    padding:.5em;
+    background: lightblue;
+    margin: 1%;
+}
+
+/* How the items float */
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+/* How the items are spaced */
+.even-spacing {
+    justify-content: space-around;
+}
+
+.even-margin {
+    justify-content: space-between;
+}
+
+/* Wrapping */
+.three-column div {
+    width:31%;
+}
