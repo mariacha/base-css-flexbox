@@ -4,10 +4,10 @@
     font-style: normal;
     font-weight: normal;
     src: url("../fonts/Amerika_Pro-webfont.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/MuseoSans_500-webfont.woff2") format("woff2"),
-    url("../fonts/Nexa_Slab_Regular_Free-webfont.woff")  format("woff"),
     url("../fonts/2-Questa_Regular-webfont.ttf") format("truetype"),
-    url("../fonts/santeliaroughlinetwo-webfont.svg#MuseoSans500") format("svg");
+    url("../fonts/santeliaroughlinetwo-webfont.svg#MuseoSans500") format("svg"),
+    url("../fonts/MuseoSans_500-webfont.woff2") format("woff2"),
+    url("../fonts/Nexa_Slab_Regular_Free-webfont.woff")  format("woff");
 }
 
 html, body {
