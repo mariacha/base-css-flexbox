@@ -1,0 +1,48 @@
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+    font-family: "generic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Amerika_Pro-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Nexa_Slab_Regular_Free-webfont.woff")  format("woff"),
+    url("../fonts/MuseoSans_500-webfont.woff2") format("woff2"),
+    url("../fonts/2-Questa_Regular-webfont.ttf") format("truetype"),
+    url("../fonts/santeliaroughlinetwo-webfont.svg#MuseoSans500") format("svg");
+}
+
+html, body {
+    font-family: "generic", sans-serif;
+}
+
+p {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1em;
+}
+
+.sanserif {
+    font-family: sans-serif;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.questa {
+    font-family: "questaregular", sans-serif;
+}
+
+.america-pro {
+    font-family: "amerika_proregular", sans-serif;
+}
+
+.santelia {
+    font-family: "santelia_roughline_two", sans-serif;
+}
+
+.nexa-slab {
+    font-family: "nexa_slab_regular_freeregular", sans-serif;
+}
+
+.museo-sans {
+    font-family: "museo_sans500", sans-serif;
+}
